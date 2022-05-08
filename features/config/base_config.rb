@@ -19,7 +19,7 @@ case @environment
 when 'regression'
   @env_url = 'regression-'
 when 'test'
-  @env_url = 'maintenance-test-'
+  @env_url = 'test-'
 when 'prod'
   @env_url = ''
 end
