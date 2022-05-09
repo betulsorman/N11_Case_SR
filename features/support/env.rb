@@ -4,7 +4,6 @@ require 'rspec'
 require 'selenium-webdriver'
 require 'date'
 require 'time'
-require 'allure-cucumber'
 require 'csv'
 
 include Capybara::DSL

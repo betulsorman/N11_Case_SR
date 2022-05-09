@@ -4,7 +4,8 @@ Feature: N11 Case Test Suite
     Given visit homepage
     And close the popup
 
-  Scenario: Task1
+    @regression
+  Scenario: Printing an item to a CSV file and going to an item's page
     When click on stores under see_stores
     And click on all_stores
     Then export list with csv and select a store
@@ -12,8 +13,8 @@ Feature: N11 Case Test Suite
     And verify product page is open
     Then print store reviews
 
-
-  Scenario: Task 2
+  @regression
+  Scenario: Searching for a product and adding the product to the cart
     When fill search box with ayfone
     And click search button
     And verify that the word has been corrected
@@ -22,7 +23,8 @@ Feature: N11 Case Test Suite
     Then verify product page is open
     And add products to cart
 
-  Scenario: Task3
+  @regression
+  Scenario: Searching product and sorting results
     When fill search box with telefon
     And click search button
     Then select second brand
