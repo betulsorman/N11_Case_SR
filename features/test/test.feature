@@ -6,11 +6,11 @@ Feature: N11 Case Test Suite
 
   Scenario: Task1
     When click on stores under see_stores
-    Then click on all_stores
-    Then export csv
-    Then open product 1 on page 1
-    Then verify product page is open
-    And print store reviews
+    And click on all_stores
+    Then export list with csv and select a store
+    And open product 1 on page "1"
+    And verify product page is open
+    Then print store reviews
 
 
   Scenario: Task 2
@@ -18,7 +18,7 @@ Feature: N11 Case Test Suite
     And click search button
     And verify that the word has been corrected
     And verify that the first product contains the searched word
-    Then open product 1 on page 1
+    Then open product 1 on page "1"
     Then verify product page is open
     And add products to cart
 
@@ -26,8 +26,7 @@ Feature: N11 Case Test Suite
     When fill search box with telefon
     And click search button
     Then select second brand
-   # And verify that the first product contains the searched word
- #   Then sort results by number of comments
+    Then sort results by number of comments
     When click on smart_sorting under reviews
     And list products with free shipping
     Then check if free shipping is selected

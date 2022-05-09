@@ -8,7 +8,7 @@ And(/^verify that the first product contains the searched word$/) do
   search_page.verify_searched_word
 end
 
-Then(/^open product (.*) on page (.*)$/) do |product_number, page_number|
+Then(/^open product (.*) on page "([^"]*)"$/) do |product_number, page_number|
   search_page.open_products product_number,page_number
 end
 

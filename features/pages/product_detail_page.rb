@@ -12,10 +12,7 @@ class ProductDetailPage
     find(@add_to_basket_button_css).click
   end
 
-  def print_store_reviews
-    store_reviews = find(@store_reviews_ccs).text
-    puts store_reviews
-  end
+
 
 
 end

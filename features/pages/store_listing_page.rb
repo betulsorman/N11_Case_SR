@@ -1,4 +1,4 @@
-class StoresPage
+class StoreListingPage
 
   def initialize
     @all_stores_button_xpath = "//h3[text()='%s']"

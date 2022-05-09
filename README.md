@@ -1,5 +1,5 @@
-<h1>Test Elogo Web App Otomasyon Projesi</h1>
-Bu proje reconciliation-test-elogo web uygulaması otomasyonunu içermektedir. 
+<h1>Test Case N11 Web App Otomasyon Projesi</h1>
+Bu proje n11 web uygulaması otomasyonunu içermektedir. 
 <h2>Tool stack</h2>
 
 * Ruby
